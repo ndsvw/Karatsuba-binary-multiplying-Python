@@ -30,4 +30,4 @@ def karatsuba(x,y):
   b = p - a - c
 
   # conquer
-  return (a << (n + (n & 1))) + (b << (k)) + c
+  return (a << (n + (n & 1))) + (b << k) + c
